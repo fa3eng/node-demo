@@ -35,7 +35,7 @@ var server = http.createServer(function(request, response){
         <link rel="stylesheet" href="/x">
     </header>
     <body>
-        <h1>杨哥真的帅</h1>
+        <h1>标题</h1>
     </body>
 
     `)
