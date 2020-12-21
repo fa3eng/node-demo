@@ -89,7 +89,7 @@ var server = http.createServer(function (request, response) {
     } else if (path == '/pages3.json') {
         response.statusCode = 200;
         response.setHeader('Content-Type', 'text/json;charset=utf-8');
-        response.write(fs.readFileSync('./db/pages2.json'));
+        response.write(fs.readFileSync('./db/pages3.json'));
         response.end();
     } else {
         response.statusCode = 404
